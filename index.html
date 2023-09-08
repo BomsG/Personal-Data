@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage 1 Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima&family=Libre+Franklin:wght@100&family=Lora:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero-txt">
+        <h3 data-testid="myTrack">FrontEnd stack</h3>
+        <h2 data-testid="slackUserName">Boma George</h2>
+
+        <div class="current-time">
+          <h1 id="dayOfWeek" data-testid="currentDayOfTheWeek">Monday</h1>
+          <div class="" data-testid="currentUTCTime">
+            <span id="hours">0</span>
+            <span id="minutes">0</span>
+            <span id="seconds">0</span>
+            <span id="ampm">PM</span>
+          </div>
+        </div>
+        <button>
+          <a
+            href="https://github.com/BomsG/Personal-Data.git"
+            target="_blank"
+            data-testid="githubURL"
+            >link to Repo</a
+          >
+        </button>
+      </div>
+      <div class="hero-img">
+        <img
+          src="/images/profile-pics.png"
+          alt="Boma George"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
